@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: codearchx
+
+  mvc:
+    static-path-pattern: /static/**

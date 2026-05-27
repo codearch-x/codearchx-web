@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="350" viewBox="0 0 1700 350">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 79.999px;
+        font-weight: 600;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+        font-family: Orbitron;
+      }
+
+      .cls-2 {
+        fill: #f60;
+      }
+
+      .cls-3 {
+        font-size: 239.996px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="bringing_the_x_factor" data-name="bringing the x factor" class="cls-1" x="675.996" y="310.5">bringing the <tspan class="cls-2">x</tspan> factor</text>
+  <text id="codearchX" class="cls-3" x="115.5" y="215.5">codearch<tspan class="cls-2">X</tspan></text>
+</svg>
