@@ -65,6 +65,8 @@ jobs:
       RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
     steps:
+      - name: asd
+        run: echo $RAILWAY_TOKEN
       - name: Link
         run: railway link --project 7c2d60ca-ea74-4183-af6d-cea165001bf4 --environment development
       - name: Who am I
