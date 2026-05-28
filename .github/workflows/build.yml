@@ -65,7 +65,9 @@ jobs:
       RAILWAY_API_TOKEN: ${{ secrets.RAILWAY_API_TOKEN }}
 
     steps:
-      - name: Link
+      - name: Who am I
         run: railway whoami
+      - name: link
+        run: railway link --project codearchx-web --environment development
       - name: asd
         run: railway add --image codearchx/codearchx-web:latest
