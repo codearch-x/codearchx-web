@@ -57,11 +57,12 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    environment: development
     needs: build
     container: ghcr.io/railwayapp/cli:latest
 
     env:
-      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN_DEV }}
+      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
     steps:
       - name: Link
