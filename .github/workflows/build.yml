@@ -62,8 +62,8 @@ jobs:
     container: ghcr.io/railwayapp/cli:latest
 
     env:
-      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      RAILWAY_API_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
     steps:
       - name: Link
-        run: railway link --project 7c2d60ca-ea74-4183-af6d-cea165001bf4 --environment development
+        run: railway whoami
