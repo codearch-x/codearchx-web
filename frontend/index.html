@@ -3,7 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
     <title>Code Arch X | Bringing the X factor to your code and architecture</title>
+    <meta name="title" content="Code Arch X | Bringing the X factor to your code and architecture" />
+    <meta name="description" content="AI-powered code architecture analysis, visualization, and improvement. Understand, refactor, and optimize your codebase with intelligent insights." />
+    <meta name="keywords" content="code architecture, code analysis, refactoring, software architecture, AI code analysis, code visualization, dependency analysis, MVP, POC" />
+    <meta name="author" content="Code Arch X Ltd." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0d1117" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://codearchx.com" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://codearchx.com" />
+    <meta property="og:title" content="Code Arch X | Bringing the X factor to your code and architecture" />
+    <meta property="og:description" content="AI-powered code architecture analysis, visualization, and improvement. Understand, refactor, and optimize your codebase with intelligent insights." />
+    <meta property="og:image" content="https://codearchx.com/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://codearchx.com" />
+    <meta property="twitter:title" content="Code Arch X | Bringing the X factor to your code and architecture" />
+    <meta property="twitter:description" content="AI-powered code architecture analysis, visualization, and improvement. Understand, refactor, and optimize your codebase with intelligent insights." />
+    <meta property="twitter:image" content="https://codearchx.com/og-image.png" />
+
+    <!-- Preconnect hints -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Code Arch X",
+        "url": "https://codearchx.com",
+        "description": "AI-powered code architecture analysis, visualization, and improvement.",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web",
+        "author": {
+          "@type": "Organization",
+          "name": "Code Arch X Ltd."
+        }
+      }
+    </script>
+
+    <!-- Google Analytics (enabled via VITE_GA_MEASUREMENT_ID env var) -->
+    <script>
+      (function () {
+        const googleAnalyticsId = "%VITE_GOOGLE_ANALYTICS_ID%";
+        if (googleAnalyticsId.length > 0 && googleAnalyticsId.charAt(0) === "G") {
+          const script = document.createElement("script");
+          script.src = "https://www.googletagmanager.com/gtag/js?id=" + googleAnalyticsId;
+          script.async = true;
+          document.head.appendChild(script);
+
+          gtag("js", new Date());
+          gtag("config", googleAnalyticsId, { anonymize_ip: true });
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

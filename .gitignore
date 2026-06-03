@@ -33,3 +33,4 @@ build/
 
 /src/main/resources/static/generated/
 /src/main/resources/static/images/
+/src/main/resources/static/templates/index.html
