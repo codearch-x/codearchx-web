@@ -69,4 +69,4 @@ jobs:
       - name: Link
         run: railway link --project codearchx-web --environment development
       - name: Redeploy
-        run: railway service codearchx-web redeploy
+        run: railway service codearchx-web redeploy --yes
